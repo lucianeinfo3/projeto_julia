@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Voltar -->
+        <TextView
+            android:id="@+id/btnVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Voltar"
+            android:textColor="#8E4A5A"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Imagem -->
+        <ImageView
+            android:id="@+id/imgProduto"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_flor"
+            android:contentDescription="Imagem do produto" />
+
+        <!-- Nome -->
+        <TextView
+            android:id="@+id/txtNomeProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Buquê de Rosas"
+            android:textColor="#542B35"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Preço -->
+        <TextView
+            android:id="@+id/txtPreco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="R$ 89,90"
+            android:textColor="#A84D67"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Descrição -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Descrição"
+            android:textColor="#542B35"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Um lindo buquê preparado com rosas frescas e selecionadas, perfeito para presentear alguém especial."
+            android:textColor="#6D5A5F"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Detalhes -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Detalhes do produto"
+            android:textColor="#542B35"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="🌹 Flores: Rosas&#10;📏 Tamanho: Médio&#10;🎨 Cores: Vermelho e branco&#10;💐 Quantidade: 12 rosas&#10;🎁 Embalagem: Papel decorativo"
+            android:textColor="#6D5A5F"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp" />
+
+        <!-- Cuidados -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Cuidados"
+            android:textColor="#542B35"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCuidados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Mantenha as flores em local fresco, troque a água diariamente e evite deixá-las expostas diretamente ao sol."
+            android:textColor="#6D5A5F"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Botão -->
+        <Button
+            android:id="@+id/btnAdicionarCarrinho"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:text="Adicionar ao carrinho"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#A84D67" />
+
+    </LinearLayout>
+
+</ScrollView>

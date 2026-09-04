@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo_flor"
+            android:contentDescription="Logo Ateliê das Flores" />
+
+        <!-- Nome -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Ateliê das Flores"
+            android:textColor="#542B35"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Flores para todos os momentos 🌷"
+            android:textColor="#8E4A5A"
+            android:textSize="15sp" />
+
+        <!-- Produtos -->
+        <Button
+            android:id="@+id/btnProdutos"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#A84D67"
+            android:text="🌸  Produtos"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <!-- Favoritos -->
+        <Button
+            android:id="@+id/btnFavoritos"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#F3DDE3"
+            android:text="♥  Meus favoritos"
+            android:textColor="#8E4A5A"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <!-- Carrinho -->
+        <Button
+            android:id="@+id/btnCarrinho"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#F3DDE3"
+            android:text="🛒  Meu carrinho"
+            android:textColor="#8E4A5A"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <!-- Pedidos -->
+        <Button
+            android:id="@+id/btnPedidos"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#F3DDE3"
+            android:text="📦  Meus pedidos"
+            android:textColor="#8E4A5A"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <!-- Perfil -->
+        <Button
+            android:id="@+id/btnPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#F3DDE3"
+            android:text="👤  Meu perfil"
+            android:textColor="#8E4A5A"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout

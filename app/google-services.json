@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "725950634483",
+    "project_id": "projeto-julu",
+    "storage_bucket": "projeto-julu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725950634483:android:8e86ec6e7e45e940321a86",
+        "android_client_info": {
+          "package_name": "com.example.projeto_julia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpDmcdwEa0nz-j3LOQg33l0hcqHmUXv0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

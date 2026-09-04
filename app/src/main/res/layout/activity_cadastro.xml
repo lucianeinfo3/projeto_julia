@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f59d92"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:paddingTop="35dp"
+        android:paddingBottom="30dp">
+
+        <!-- TÍTULO -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ateliê das Flores"
+            android:textColor="#66245b"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="georgia" />
+
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="114dp"
+            android:layout_marginBottom="25dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo_flor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="serif"
+            android:text="Crie sua conta!"
+            android:textColor="#66245b"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="Nome"
+            android:textColor="#7A5362"
+            android:textColorHint="#9B7080"
+            android:textSize="18sp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:background="@drawable/campo_rosa"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp" />
+
+        <!-- EMAIL -->
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="E-mail"
+            android:textColor="#7A5362"
+            android:textColorHint="#9B7080"
+            android:textSize="18sp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:background="@drawable/campo_rosa"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="12dp" />
+
+        <!-- USUÁRIO -->
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Usuário"
+            android:textColor="#7A5362"
+            android:textColorHint="#9B7080"
+            android:textSize="18sp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:background="@drawable/campo_rosa"
+            android:inputType="text"
+            android:layout_marginBottom="12dp" />
+
+        <!-- SENHA -->
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Senha"
+            android:textColor="#7A5362"
+            android:textColorHint="#9B7080"
+            android:textSize="18sp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:background="@drawable/campo_rosa"
+            android:inputType="textPassword"
+            android:layout_marginBottom="12dp" />
+
+        <!-- CONFIRMAR SENHA -->
+        <EditText
+            android:id="@+id/edtConfirmarSenha"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Confirmar senha"
+            android:textColor="#7A5362"
+            android:textColorHint="#9B7080"
+            android:textSize="18sp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:background="@drawable/campo_rosa"
+            android:inputType="textPassword"
+            android:layout_marginBottom="22dp" />
+
+        <!-- BOTÃO CADASTRAR -->
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:text="Cadastrar"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#ef7270" />
+
+        <!-- JÁ TEM CONTA -->
+        <TextView
+            android:id="@+id/txtEntrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Já possui uma conta? Entre"
+            android:textColor="#66245b"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="22dp" />
+
+    </LinearLayout>
+
+</ScrollView>

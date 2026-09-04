@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Voltar -->
+        <TextView
+            android:id="@+id/btnVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Voltar"
+            android:textColor="#8E4A5A"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Meu perfil"
+            android:textColor="#542B35"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- Foto do perfil -->
+        <ImageView
+            android:id="@+id/imgPerfil"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/pato"
+            android:scaleType="centerCrop"
+            android:contentDescription="Foto do perfil" />
+
+        <!-- Nome -->
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Seu Nome"
+            android:textColor="#542B35"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- E-mail -->
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="seuemail@gmail.com"
+            android:textColor="#6D5A5F"
+            android:textSize="15sp" />
+
+        <!-- Informações -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Informações pessoais"
+            android:textColor="#542B35"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="15dp"
+            android:background="#FFFFFF"
+            android:text="📱  (92) 99999-9999"
+            android:textColor="#6D5A5F"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:background="#FFFFFF"
+            android:text="📍  Seu endereço"
+            android:textColor="#6D5A5F"
+            android:textSize="16sp" />
+
+        <!-- Botão editar -->
+        <Button
+            android:id="@+id/btnEditarPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="25dp"
+            android:text="Editar perfil"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="#A84D67" />
+
+        <!-- Sair -->
+        <Button
+            android:id="@+id/btnSair"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp"
+            android:text="Sair da conta"
+            android:textColor="#A84D67"
+            android:textSize="16sp"
+            android:backgroundTint="#F3DDE3" />
+
+    </LinearLayout>
+
+</ScrollView>

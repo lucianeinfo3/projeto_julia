@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Botão voltar -->
+        <TextView
+            android:id="@+id/btnVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Voltar"
+            android:textColor="#8E4A5A"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="5dp" />
+
+        <!-- Foto do produto -->
+
+        <!-- Nome -->
+
+        <ImageView
+            android:id="@+id/imgProduto"
+            android:layout_width="398dp"
+            android:layout_height="273dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="Imagem do produto"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rosas" />
+
+        <TextView
+            android:id="@+id/txtNomeProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Buquê de Rosas"
+            android:textColor="#542B35"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- Preço -->
+        <TextView
+            android:id="@+id/txtPreco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="R$ 89,90"
+            android:textColor="#A84D67"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- Descrição -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Descrição"
+            android:textColor="#542B35"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Lindo buquê de rosas frescas, preparado com carinho para tornar seu momento ainda mais especial."
+            android:textColor="#6D5A5F"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Quantidade -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Quantidade"
+            android:textColor="#542B35"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtQuantidade"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="18sp" />
+
+        <!-- Adicionar ao carrinho -->
+        <Button
+            android:id="@+id/btnAdicionarCarrinho"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#A84D67"
+            android:text="Adicionar ao carrinho"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

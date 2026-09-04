@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    tools:context=".ViewModel.MainActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ateliê das Flores"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:fontFamily="serif"
+            android:layout_marginBottom="10dp"
+            android:textColor="#8B4789"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seja bem vindo(a)!"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="25dp"
+            android:textColor="#DB7093"/>
+
+        <ImageView
+            android:layout_width="129dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo_flor" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="Usuário"
+            android:textColor="@color/white"
+            android:textColorHint="#8B4789"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:background="@drawable/corner"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:id="@+id/Usuario_input"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Senha"
+            android:textColor="@color/white"
+            android:textColorHint="#8B4789"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:background="@drawable/corner"
+            android:padding="18dp"
+            android:inputType="textPassword"
+            android:textStyle="bold"
+            android:id="@+id/Senha_input"
+            />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            android:backgroundTint="@color/white"
+            android:textColor="#FF69B4"
+            android:padding="18dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="32dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ainda não tem uma conta? Registre-se"
+            android:textSize="19sp"
+            android:textColor="#8B4789"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entre com:"
+            android:textSize="19sp"
+            android:textColor="#8B4789"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginTop="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="16dp"
+                android:id="@+id/Google_button"
+                android:src="@drawable/google"/>
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="16dp"
+                android:id="@+id/Facebook_button"
+                android:src="@drawable/facebook"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
